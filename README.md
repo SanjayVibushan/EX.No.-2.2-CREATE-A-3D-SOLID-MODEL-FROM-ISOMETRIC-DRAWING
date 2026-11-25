@@ -1,8 +1,6 @@
 # EX.No.-2.2 CREATE A 3D SOLID MODEL FROM ISOMETRIC DRAWING
-## Date :
 
 ## AIM: 
-
 To create a 3Dmodel from the given isometric drawing using fusion 360 tool. 
 
 ## REQUIREMENTS:
@@ -11,102 +9,47 @@ To create a 3Dmodel from the given isometric drawing using fusion 360 tool.
 3. 16 GB of RAM (integrated graphics recommend 1 GB or more)
 4. 2.5 Mbps or faster download; 500 Kbps or faster upload 
 
-## STEP-2:  Select the Sketch Plane
- Select the TOP (XY) Plane
+## PROCEDURE:
+1. Open Autodesk Fusion 360, create a new design and click New Part Design. Click on Create Sketch to enter the sketch environment.
+2. Select the Slot tool from the Create menu and draw a horizontal slot profile using the given dimensions.<img width="1920" height="881" alt="Screenshot (78)" src="https://github.com/user-attachments/assets/2c14e1b6-ad3d-4b8c-9ce2-f4917e7228cd" />
 
-## STEP-3: Create a Sketch 
-1.  Select Sketch > Rectangle > Center Rectangle.
-2.  Now hover over the origin (center) of the sketch. You should see the cursor snap to this location.
-3.  Click once to begin placing the rectangle.
-4.  Type the Tab button and enter the values 56 mm and 18mm for the width and height respectively.
-5.  Select Sketch > Arc > Center point arc.
-6.  Click again to place the value (Both end of the sketch). You should see the cursor snap to this location
-7.  Type the Tab button and enter the values R 18mm
-8.  Select Sketch > circle > Center point circle.
-9.  Click again to place the value (Both side of the sketch). You should see the cursor snap to this location
-10. Type the Tab button and enter the values dia 16mm
-11. Click again to place the sketch.
-12. Click Finish Sketch after completing.
+3. Apply the required dimensions to the slot using the Sketch Dimension tool and complete the sketch.
+4. Draw two circles of the required diameter at both ends of the slot to form the holes.<img width="1920" height="875" alt="Screenshot (80)" src="https://github.com/user-attachments/assets/6cdb30e0-fcc0-4a59-819a-93c355e4b154" />
 
-## STEP-4: Extrude Sketch in XY Plane
-1.	Select Extrude.
-2.	Select the sketch.
-3.	Click again to place the value.
-4.	Type in the value of 8mm. 
-5.	Press ENTER to accept the value.
+5. Click Finish Sketch and select the required profile. Choose Extrude from the Solid menu and enter a distance of 10 mm to create the base plate.<img width="1920" height="889" alt="Screenshot (81)" src="https://github.com/user-attachments/assets/b4aec0e6-f64b-44de-809a-e05b4a9b6f23" />
 
-## STEP-5:  Start the sketch command
-   Select Sketch > Create Sketch.
+6. Select the top face of the base plate and create a new sketch.
+7. Using the Rectangle tool, draw a rectangular profile at the centre of the base plate and apply the dimensions as shown in the screenshots.<img width="1920" height="885" alt="Screenshot (83)" src="https://github.com/user-attachments/assets/e75ef177-3039-4257-a4f8-7aa075816f9b" />
 
-## STEP-6: Select the Sketch Plane
-	Select the TOP SURFACE of the 3D block 
-  
-## STEP-7: Create a RECTANGLE 
-1.	Select Sketch > RECTANGLE  > CENTER RECTANGLE.
-2.	Now hover over the origin (center) of the sketch. You should see the cursor snap to this location.
-3.	Click once to begin placing the RECTANGLE.
-4.	Type the Tab button and enter the values 40mm and 10mm for the width and height respectively
-5.	Click again to place the RECTANGLE.
-6.	Click Finish Sketch after completing.
+8. Click Finish Sketch and select the rectangular profile. Use the Extrude command and enter a distance of 30 mm with the Join option.<img width="1920" height="887" alt="Screenshot (84)" src="https://github.com/user-attachments/assets/89de822a-8244-468d-84bf-5eb26856fd2f" />
 
-## STEP-8:  Extrude RECTANGLE 
-1.	Select Extrude.
-2.	Select the Rectangle sketch.
-3.	Click again to place the value.
-4.	Type in the value of 32mm. 
-5.	Press ENTER to accept the value.
+9. Select the appropriate vertical plane and create a new sketch for the upper inclined portion.<img width="1920" height="887" alt="Screenshot (85)" src="https://github.com/user-attachments/assets/75183701-6df4-4a8f-abf1-c364240e46ab" />
 
-## STEP-9: Create a TRIANGLE 
-1.	Select Sketch > TRIANGLE > CENTER TRIANGLE .
-2.	Now hover over the origin (center) of the sketch. You should see the cursor snap to this location.
-3.	Click once to begin placing the TRIANGLE.
-4.	Type the Tab button and enter the values 32mm and 12mm for the width and height respectively
-5.	Click again to place the TRIANGLE.
-6.	Click Finish Sketch after completing.
+10. Select the Circle tool and draw concentric circles of diameters 30 mm and 20 mm at the required position.	<img width="1920" height="884" alt="Screenshot (86)" src="https://github.com/user-attachments/assets/718d0825-bf26-479b-8c03-b60b3d10beda" />
 
-## STEP-10:  Extrude TRIANGLE
-1.	Select Extrude.
-2.	Select the TRIANGLE sketch.
-3.	Click again to place the value.
-4.	Type in the value of 6mm in both direction option. 
-5.	Press ENTER to accept the value.
+11. Use the Line tool to draw two slanting lines connecting the upper circular portion with the lower rectangular portion.<img width="1920" height="888" alt="Screenshot (87)" src="https://github.com/user-attachments/assets/a140de55-36b4-4ed1-89d8-25f95ed7c173" />
 
-## STEP-11: Create a PENTAGON 
-1.	Select Sketch > polygon > circumscribed polygon.
-2.	Now hover over the origin (center) of the sketch. You should see the cursor snap to this location.
-3.	Click once to begin placing the polygon.
-4.	Type the Tab button and enter the values 40mm and 30mm, for the width and height respectively and Choose 3 Side
-5.	Click again to place the polygon.
-6.	Click Finish Sketch after completing.
+12. Constrain the lines and circle using the Sketch Dimension and Tangent tools.<img width="1920" height="876" alt="Screenshot (88)" src="https://github.com/user-attachments/assets/54b627c2-b597-47fc-87dd-fb6017dc2200" />
 
-## STEP-12: Extrude PENTAGON
-1.	Select Extrude.
-2.	Select the PENTAGON sketch.
-3.	Click again to place the value.
-4.	Type in the value of 10mm. 
-5.	Press ENTER to accept the value.
+13. Use the Trim command to remove the unwanted portions of the circle and lines to obtain the required inclined profile.<img width="1920" height="881" alt="Screenshot (90)" src="https://github.com/user-attachments/assets/6b8a18ef-eab5-431e-9c63-87f24bb96fc9" />
 
-## STEP-13: Create a CIRCLE 
-1.	Select Sketch > CIRCLE > CENTER CIRCLE.
-2.	Now hover over the origin (Pentagan end side) of the sketch. You should see the cursor snap to this location.
-3.	Click once to begin placing the CIRCLE.
-4.	Type the Tab button and enter the value DIA 30mm and 20mm, inner and outer diameter respectively .
-5.	Click again to place the circle.
-6.	Click Finish Sketch after completing.
+14. Click Finish Sketch and select the required profiles. Use the Extrude command and enter a distance of 10 mm to create the upper portion.<img width="1920" height="875" alt="Screenshot (91)" src="https://github.com/user-attachments/assets/85f94e2a-6a8b-4a3e-90ad-4dfa63af5781" /><img width="1920" height="875" alt="Screenshot (93)" src="https://github.com/user-attachments/assets/0f1fdb75-924c-4c02-a266-7828d7f5ec1f" />
 
-## STEP-14:  Extrude CIRCLE 
-1.	Select Extrude.
-2.	Select the pentogan sketch.
-3.	Click again to place the value.
-4.	Type in the value of 10mm on both side. 
-5.	Press ENTER to accept the value.
+15. Create another sketch on the required face and complete the remaining rectangular profile using the Line tool.<img width="1920" height="881" alt="Screenshot (94)" src="https://github.com/user-attachments/assets/e741acf6-a100-48b4-8085-4bba94508397" />
 
-## INPUT:
-![image](https://user-images.githubusercontent.com/113594316/198523331-05ace360-502b-4569-b9b4-31c60e3cd554.png)
+16. Select the required profiles and use the Extrude command with the Join option to complete the additional connecting portion.<img width="1920" height="884" alt="Screenshot (96)" src="https://github.com/user-attachments/assets/5b896515-cf90-42d3-9587-4af4aec1e60e" />
 
-Output:
+17. Select the required edges of the model and choose Chamfer from the Modify menu.
+18. Enter the required chamfer dimensions and click OK to create the sloping connecting support.<img width="1920" height="884" alt="Screenshot (97)" src="https://github.com/user-attachments/assets/342a4a7e-fd7b-4d7f-a391-019e42f84799" />
 
+19. Check the final model with the reference drawing and make the necessary adjustments.
+20. Save the completed design using a suitable file name.
+21. Create a new drawing file from the File menu, add the necessary dimensions according to the reference drawing and save it.
+    
 ## RESULT: 
-Thus, the 3D model is created from given isometric drawing.
+<img width="1082" height="741" alt="Screenshot 2026-11-09 194233" src="https://github.com/user-attachments/assets/8aa0a453-97c8-47b5-bcea-8765429297b2" />
+<img width="958" height="687" alt="Screenshot 2026-11-09 222739" src="https://github.com/user-attachments/assets/b1bddff9-67dd-4c64-93f9-68410d6e5e1c" />
 
+## OUTPUT:
+Thus, the given sketch has been created successfully.
 
